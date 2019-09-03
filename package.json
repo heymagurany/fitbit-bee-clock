@@ -1,4 +1,7 @@
 {
+  "name": "fitbit-bee-clock",
+  "description": "A Fitbit clock face I makd for my Mom's birthday.",
+  "version": "1.0.0",
   "fitbit": {
     "appUUID": "a0fb4c85-b572-4c90-962c-d11f75cf7697",
     "appType": "clockface",
