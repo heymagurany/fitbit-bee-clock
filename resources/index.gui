@@ -1,0 +1,66 @@
+<svg class="background">
+  <image x="0" y="0" width="300" height="300" href="bee_300px.png" class="yellow" />
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="8" height="110" class="pink" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="12" height="75" class="pink" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="4" height="120" class="pink" opacity=".75" />
+  </g>
+  <g id="markers">
+    <!-- 11h -->
+    <g transform="translate(61,2),rotate(330)">
+      <rect class="marker" />
+    </g>
+    <!-- 0h -->
+    <g transform="translate(148,2)">
+      <rect class="marker" />
+    </g>
+    <!-- 1h -->
+    <g transform="translate(235,2),rotate(30)">
+      <rect class="marker" />
+    </g>
+    
+    <!-- 2h -->
+    <g transform="translate(298,61),rotate(60)">
+      <rect class="marker" />
+    </g>
+    <!-- 3h -->
+    <g transform="translate(298,148),rotate(90)">
+      <rect class="marker" />
+    </g>
+    <!-- 4h -->
+    <g transform="translate(298,235),rotate(120)">
+      <rect class="marker" />
+    </g>
+    
+    <!-- 5h -->
+    <g transform="translate(239,298),rotate(150)">
+      <rect class="marker" />
+    </g>
+    <!-- 6h -->
+    <g transform="translate(152,298),rotate(180)">
+      <rect class="marker" />
+    </g>
+    <!-- 7h -->
+    <g transform="translate(65,298),rotate(210)">
+      <rect class="marker" />
+    </g>
+    
+    <!-- 8h -->
+    <g transform="translate(2,239),rotate(240)">
+      <rect class="marker" />
+    </g>
+    <!-- 9h -->
+    <g transform="translate(2,152),rotate(270)">
+      <rect class="marker" />
+    </g>
+    <!-- 10h -->
+    <g transform="translate(2,65),rotate(300)">
+      <rect class="marker" />
+    </g>
+  </g>
+  <circle cx="50%" cy="50%" r="6" class="pink" />
+</svg>

@@ -1,0 +1,19 @@
+.background {
+  viewport-fill: fb-black;
+}
+
+.pink {
+  fill: fb-magenta;
+}
+
+.yellow {
+  fill: fb-peach;
+  opacity: .75;
+}
+
+.marker {
+  fill: fb-magenta;
+  width: 4;
+  height: 25;
+  opacity: .75;
+}
